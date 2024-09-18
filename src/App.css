@@ -1,0 +1,109 @@
+/* Upnav started */
+
+.upnav{
+  background-color: rgba(31, 30, 30, 0.556);
+  color: rgba(195, 187, 187, 0.462);
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+.upnav a{
+  color: white;
+  text-decoration: none;
+}
+.part1{
+  padding: 10px 90px;
+}
+.part1 p{
+  display: flex;
+  gap: 20px;
+}
+.part2 .part2-ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 10px 80px;
+}
+.part2 .part2-ul li a{
+  display: flex;
+  gap: 10px;
+}
+.drop {
+  position: absolute;
+  top: 40px;
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 3px;
+  padding: 40px 34px;
+  font-size:14px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 1s ease-in-out;
+}
+
+.drop li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.drop li a {
+  color: black;
+  text-decoration: none;
+}
+
+.drop li a:hover {
+  color: #23527c;
+}
+
+/* upnav ended */
+
+
+/* Navbar started */
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.navbar .logo img{
+  height: 7vh;
+  padding: 19px 10px;
+}
+.navbar .navlist{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding-top: 43px;
+  display: flex;
+  gap: 19px;
+}
+.navbar .navlist li a{
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  gap: 18px;
+}
+.navbar .navlist li a:hover{
+  color: #23527c;
+}
+.navbar .button-login-signup{
+  width: 30vh;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.navbar .button-login-signup button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.navbar .button-login-signup button:hover{
+  background-color: #ff6600;
+  color: #f9f9f9;
+  transition: 0.3s ease-in-out;
+  border-radius: 20px 80px;
+}
+/* nav bar ended */
